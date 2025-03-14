@@ -1,0 +1,30 @@
+#back-links button {
+   padding: 1rem 3rem;
+   border-radius: 1rem;
+   border: 1px solid var(--stroke-color);
+   font-size: 1.6rem;
+   font-weight: 500;
+   cursor: pointer;
+
+   background: var(--surface-color);
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+
+   transition: background 0.5s;
+}
+
+#back-links button:hover {
+   background: var(--surface-color-hover);
+}
+
+#back-links a {
+   text-decoration: none;
+   color: var(--text-color);
+}
+
+ol {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   gap: 1rem;
+}
