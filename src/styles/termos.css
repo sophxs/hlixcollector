@@ -1,0 +1,35 @@
+#links {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2rem;
+}
+
+#links a {
+   padding: 1rem 3rem;
+   border-radius: 1rem;
+   border: 1px solid var(--stroke-color);
+   font-size: 1.6rem;
+   font-weight: 500;
+   cursor: pointer;
+
+   background: var(--surface-color);
+   backdrop-filter: blur(4px);
+   -webkit-backdrop-filter: blur(4px);
+
+   transition: background 0.5s;
+
+   text-decoration: none;
+   color: var(--text-color);
+}
+
+#links a:hover {
+   background: var(--surface-color-hover);
+}
+
+ol {
+   display: flex;
+   flex-direction: column;
+   text-align: left;
+   gap: 1rem;
+}
